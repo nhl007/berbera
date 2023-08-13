@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f4dabf;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.hero_container {
+  background-image: url('./assets/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.luxury_punjabi {
+  background-image: url('./assets/trial1.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.premium_punjabi {
+  background-image: url('./assets/trial3.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.regular_punjabi {
+  background-image: url('./assets/trial2.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
